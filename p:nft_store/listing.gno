@@ -55,3 +55,6 @@ func (l Listing) GetSeller() std.Address {
 	return l.seller
 }
 
+func (l listing) GetListing() *Listing {
+	return l
+}
